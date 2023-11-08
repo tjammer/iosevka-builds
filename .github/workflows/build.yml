@@ -1,0 +1,44 @@
+name: build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+    - name: Install ttfautohint
+      run: |
+        sudo apt-get update
+        sudo apt-get install ttfautohint
+    - name: Checkout Iosevka
+      uses: actions/checkout@v3
+      with:
+        repository: be5invis/Iosevka
+        fetch-depth: 1
+        fetch-tags: false
+    - name: Checkout configuration
+      uses: actions/checkout@v3
+      with:
+        path: iosevka-neat
+    - name: Place config in correct location
+      run: ln -s iosevka-neat/private-build-plans.toml private-build-plans.toml
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - name: Install dependencies
+      run: npm ci
+    - name: Build the font
+      run: npm run build -- ttf::iosevka-neat
+    - uses: actions/upload-artifact@v3
+      with:
+        name: iosevka-neat
+        path: dist/iosevka-neat/ttf/*
