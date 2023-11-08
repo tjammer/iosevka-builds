@@ -1,0 +1,41 @@
+[buildPlans.iosevka-neat]
+family = "Iosevka Neat"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-neat.variants]
+  inherits = "ss14"
+
+    [buildPlans.iosevka-neat.variants.design]
+    capital-k = "symmetric-connected-serifless"
+    capital-w = "straight-serifless"
+    b = "toothless-corner-serifless"
+    g = "single-storey-flat-hook-earless-corner"
+    k = "symmetric-connected-serifless"
+    l = "serifed-flat-tailed"
+    m = "earless-single-arch-serifless"
+    n = "earless-corner-straight-serifless"
+    q = "earless-corner-straight-serifless"
+    y = "straight-turn-serifless"
+    zero = "oval-top-right-cutout"
+    one = "no-base"
+    three = "two-arcs"
+    four = "closed"
+    five = "oblique-arched"
+    six = "open-contour"
+    seven = "bend-serifless"
+    eight = "crossing-asymmetric"
+    nine = "open-contour"
+    paren = "normal"
+    brace = "curly"
+    number-sign = "upright"
+    ampersand = "et-toothless-corner"
+    at = "fourfold-solid-inner"
+    question = "smooth"
+
+[buildPlans.iosevka-neat.widths.normal]
+shape = 540
+menu = 5
+css = "normal"
