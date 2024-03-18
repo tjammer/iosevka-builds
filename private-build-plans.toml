@@ -2,8 +2,8 @@
 family = "Iosevka Neat"
 spacing = "normal"
 serifs = "sans"
-no-cv-ss = true
-export-glyph-names = false
+noCvSs = true
+exportGlyphNames = false
 
   [buildPlans.iosevka-neat.variants]
   inherits = "ss14"
@@ -22,8 +22,8 @@ export-glyph-names = false
     zero = "oval-top-right-cutout"
     one = "no-base"
     three = "two-arcs"
-    four = "closed"
-    five = "oblique-arched"
+    four = "closed-serifless"
+    five = "oblique-arched-serifless"
     six = "open-contour"
     seven = "bend-serifless"
     eight = "crossing-asymmetric"
@@ -35,7 +35,7 @@ export-glyph-names = false
     at = "fourfold-solid-inner"
     question = "smooth"
 
-[buildPlans.iosevka-neat.widths.normal]
-shape = 540
-menu = 5
-css = "normal"
+# [buildPlans.iosevka-neat.widths.normal]
+# shape = 540
+# menu = 5
+# css = "normal"
