@@ -18,6 +18,7 @@ exportGlyphNames = false
     m = "earless-single-arch-serifless"
     n = "earless-corner-straight-serifless"
     q = "earless-corner-straight-serifless"
+    r = "earless-corner-serifless"
     y = "straight-turn-serifless"
     zero = "oval-top-right-cutout"
     one = "no-base"
