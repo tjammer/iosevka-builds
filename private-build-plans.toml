@@ -1,14 +1,14 @@
-[buildPlans.iosevka-neat]
-family = "Iosevka Neat"
+[buildPlans.iosevka-semineat]
+family = "Iosevka Semineat"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.iosevka-neat.variants]
+  [buildPlans.iosevka-semineat.variants]
   inherits = "ss14"
 
-    [buildPlans.iosevka-neat.variants.design]
+    [buildPlans.iosevka-semineat.variants.design]
     capital-k = "symmetric-connected-serifless"
     capital-w = "straight-serifless"
     b = "toothless-corner-serifless"
@@ -36,7 +36,7 @@ exportGlyphNames = false
     at = "fourfold-solid-inner"
     question = "smooth"
 
-# [buildPlans.iosevka-neat.widths.normal]
-# shape = 540
-# menu = 5
-# css = "normal"
+[buildPlans.iosevka-semineat.widths.normal]
+shape = 548
+menu = 5
+css = "normal"
