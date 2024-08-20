@@ -35,7 +35,7 @@ exportGlyphNames = false
     at = "fourfold-solid-inner"
     question = "smooth"
 
-# [buildPlans.iosevka-neat.widths.normal]
-# shape = 540
-# menu = 5
-# css = "normal"
+[buildPlans.iosevka-neat.widths.normal]
+shape = 548
+menu = 5
+css = "normal"
