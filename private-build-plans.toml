@@ -8,6 +8,9 @@ exportGlyphNames = false
   [buildPlans.Iosolas.variants]
   inherits = "ss03"
 
+    [buildPlans.Iosolas.variants.design]
+    at = "threefold"
+
 [buildPlans.Iosolas.widths.normal]
 shape = 548
 menu = 5
