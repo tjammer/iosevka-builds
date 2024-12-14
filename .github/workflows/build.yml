@@ -37,8 +37,8 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Build the font
-      run: npm run build -- ttf::iosevka-neat
+      run: npm run build -- ttf::Iosolas
     - uses: actions/upload-artifact@v3
       with:
-        name: iosevka-neat
-        path: dist/iosevka-neat/TTF/*
+        name: Iosolas
+        path: dist/Iosolas/TTF/*
