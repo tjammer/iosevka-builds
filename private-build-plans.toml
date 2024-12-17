@@ -1,14 +1,24 @@
-[buildPlans.iosevka-neat]
+[buildPlans.IosevkaNeat]
 family = "Iosevka Neat"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.iosevka-neat.variants]
+  [buildPlans.IosevkaNeat.variants]
   inherits = "ss14"
 
-    [buildPlans.iosevka-neat.variants.design]
+
+    [buildPlans.IosevkaNeat.variants.design]
+    one = "no-base"
+    three = "two-arcs"
+    four = "closed-serifless"
+    five = "upright-arched-serifless"
+    six = "closed-contour"
+    seven = "straight-serifless"
+    eight = "crossing"
+    nine = "closed-contour"
+    zero = "top-right-cutout"
     capital-k = "symmetric-connected-serifless"
     capital-w = "straight-serifless"
     b = "toothless-corner-serifless"
@@ -19,15 +29,6 @@ exportGlyphNames = false
     n = "earless-corner-straight-serifless"
     q = "earless-corner-straight-serifless"
     y = "straight-turn-serifless"
-    zero = "oval-top-right-cutout"
-    one = "no-base"
-    three = "two-arcs"
-    four = "closed-serifless"
-    five = "oblique-arched-serifless"
-    six = "open-contour"
-    seven = "bend-serifless"
-    eight = "crossing-asymmetric"
-    nine = "open-contour"
     paren = "normal"
     brace = "curly"
     number-sign = "upright"
@@ -35,7 +36,7 @@ exportGlyphNames = false
     at = "fourfold-solid-inner"
     question = "smooth"
 
-[buildPlans.iosevka-neat.widths.normal]
+[buildPlans.IosevkaNeat.widths.normal]
 shape = 548
 menu = 5
 css = "normal"
