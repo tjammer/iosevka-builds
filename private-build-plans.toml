@@ -61,3 +61,51 @@ exportGlyphNames = false
 shape = 548
 menu = 5
 css = "normal"
+
+[buildPlans.IosevkaHooked]
+family = "Iosevka Hooked"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaHooked.variants.design]
+two = "curly-neck-serifless"
+four = "closed-serifless"
+seven = "curly-serifless"
+nine = "closed-contour"
+zero = "oval-dotted"
+capital-a = "round-top-serifless"
+capital-b = "standard-interrupted-serifless"
+capital-c = "unilateral-inward-serifed"
+capital-g = "toothless-corner-inward-serifed-hooked"
+capital-i = "short-serifed"
+capital-r = "straight-open-serifless"
+capital-s = "unilateral-inward-serifed"
+capital-u = "toothless-corner-serifless"
+a = "double-storey-hook-inward-serifed-toothless-corner"
+b = "toothless-corner-serifless"
+d = "toothless-corner-serifless"
+g = "single-storey-earless-corner"
+l = "serifed-flat-tailed"
+m = "earless-single-arch-serifless"
+n = "earless-corner-straight-serifless"
+p = "earless-corner-serifless"
+q = "earless-corner-straight-serifless"
+r = "earless-corner-serifless"
+s = "unilateral-inward-serifed"
+t = "bent-hook-asymmetric"
+u = "toothless-corner-serifless"
+y = "straight-turn-serifless"
+paren = "large-contour"
+brace = "straight"
+number-sign = "slanted"
+ampersand = "et-toothless-corner"
+at = "fourfold-solid-inner"
+dollar = "interrupted"
+percent = "rings-continuous-slash"
+
+[buildPlans.IosevkaHooked.widths.normal]
+shape = 548
+menu = 5
+css = "normal"
