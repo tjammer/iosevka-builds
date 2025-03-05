@@ -41,27 +41,6 @@ shape = 548
 menu = 5
 css = "normal"
 
-
-[buildPlans.IosevkaPragma]
-family = "Iosevka Pragma"
-spacing = "normal"
-serifs = "sans"
-noCvSs = true
-exportGlyphNames = false
-
-  [buildPlans.IosevkaPragma.variants]
-  inherits = "ss08"
-
-    [buildPlans.IosevkaPragma.variants.design]
-    zero = "oval-reverse-slashed-split"
-    capital-n = "standard-serifless"
-    at = "fourfold-solid-inner"
-
-[buildPlans.IosevkaPragma.widths.normal]
-shape = 548
-menu = 5
-css = "normal"
-
 [buildPlans.IosevkaHooked]
 family = "Iosevka Hooked"
 spacing = "normal"
