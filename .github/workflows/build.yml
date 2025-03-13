@@ -26,9 +26,9 @@ jobs:
     - name: Checkout configuration
       uses: actions/checkout@v3
       with:
-        path: IosevkaHooked
+        path: IosevkaHookedCondensed
     - name: Place config in correct location
-      run: ln -s IosevkaHooked/private-build-plans.toml private-build-plans.toml
+      run: ln -s IosevkaHookedCondensed/private-build-plans.toml private-build-plans.toml
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -37,8 +37,8 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Build the font
-      run: npm run build -- ttf::IosevkaHooked
+      run: npm run build -- ttf::IosevkaHookedCondensed
     - uses: actions/upload-artifact@v4
       with:
-        name: IosevkaHooked
-        path: dist/IosevkaHooked/TTF/*
+        name: IosevkaHookedCondensed
+        path: dist/IosevkaHookedCondensed/TTF/*

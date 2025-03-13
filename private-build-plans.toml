@@ -41,14 +41,14 @@ shape = 548
 menu = 5
 css = "normal"
 
-[buildPlans.IosevkaHooked]
-family = "Iosevka Hooked"
+[buildPlans.IosevkaHookedCondensed]
+family = "Iosevka Hooked Condensed"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.IosevkaHooked.variants.design]
+[buildPlans.IosevkaHookedCondensed.variants.design]
 one = "base"
 two = "straight-neck-serifless"
 three = "two-arcs"
@@ -91,8 +91,3 @@ ampersand = "et-toothless-corner"
 at = "fourfold-solid-inner"
 dollar = "interrupted"
 percent = "rings-continuous-slash"
-
-[buildPlans.IosevkaHooked.widths.normal]
-shape = 548
-menu = 5
-css = "normal"
