@@ -48,9 +48,9 @@ jobs:
       with:
         name: IosevkaHookedCondensed
         path: dist/IosevkaHookedCondensed/TTF/*
-    - name: Build Adwaita
-      run: npm run build -- ttf::AdwaitaMonoCondensed
+    - name: Build Serious
+      run: npm run build -- ttf::IosevkaSeriousCondensed
     - uses: actions/upload-artifact@v4
       with:
-        name: AdwaitaMonoCondensed
-        path: dist/AdwaitaMonoCondensed/TTF/*
+        name: IosevkaSeriousCondensed
+        path: dist/IosevkaSeriousCondensed/TTF/*

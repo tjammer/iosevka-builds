@@ -97,33 +97,34 @@ shape = 500
 menu = 5
 css = "normal"
 
-[buildPlans.AdwaitaMonoCondensed]
-family = "Adwaita Mono Condensed"
+[buildPlans.IosevkaSeriousCondensed]
+family = "Iosevka Serious Condensed"
 spacing = "fixed"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.AdwaitaMonoCondensed.variants.design]
+[buildPlans.IosevkaSeriousCondensed.variants.design]
 two = "straight-neck-serifless"
 four = "closed-serifless"
 six = "closed-contour"
 eight = "two-circles"
 nine = "closed-contour"
-zero = "dotted"
+zero = "slashed-split"
 capital-d = "more-rounded-serifless"
 capital-g = "toothless-rounded-serifless-hooked"
 capital-i = "short-serifed"
-capital-m = "flat-bottom-serifless"
+capital-m = "hanging-serifless"
 capital-q = "crossing"
-capital-w = "straight-flat-top-serifless"
+capital-w = "straight-serifless"
 f = "flat-hook-serifless"
-i = "serifed-asymmetric"
+i = "hooky"
 j = "flat-hook-serifed"
 l = "serifed-flat-tailed"
 r = "hookless-serifless"
 t = "flat-hook"
-w = "straight-flat-top-serifless"
+u = "toothless-rounded-serifless"
+w = "straight-serifless"
 y = "straight-turn-serifless"
 long-s = "flat-hook-serifless"
 lower-gamma = "straight"
@@ -132,7 +133,8 @@ lower-upsilon = "straight-serifless"
 lower-chi = "semi-chancery-straight-serifless"
 cyrl-capital-u = "straight-turn-serifless"
 cyrl-u = "straight-turn-serifless"
-asterisk = "hex-high"
+asterisk = "penta-high"
+paren = "large-contour"
 brace = "straight"
 guillemet = "straight"
 number-sign = "slanted"
@@ -142,30 +144,30 @@ micro-sign = "tailed-serifless"
 lig-equal-chain = "without-notch"
 lig-hyphen-chain = "without-notch"
 
-[buildPlans.AdwaitaMonoCondensed.variants.italic]
+[buildPlans.IosevkaSeriousCondensed.variants.italic]
 two = "straight-neck-serifless"
 four = "closed-serifless"
 six = "closed-contour"
 eight = "two-circles"
 nine = "closed-contour"
-zero = "dotted"
+zero = "slashed-split"
 capital-d = "more-rounded-serifless"
 capital-g = "toothless-rounded-serifless-hooked"
 capital-i = "short-serifed"
-capital-m = "flat-bottom-serifless"
+capital-m = "hanging-serifless"
 capital-q = "crossing"
-capital-w = "straight-flat-top-serifless"
+capital-w = "straight-serifless"
 a = "single-storey-serifless"
 d = "toothed-serifless"
 f = "flat-hook-tailed"
-i = "serifed-asymmetric"
+i = "hooky"
 j = "flat-hook-serifed"
 k = "straight-serifless"
 l = "serifed-flat-tailed"
 r = "hookless-serifless"
 t = "flat-hook"
-w = "straight-flat-top-serifless"
-u = "toothed-serifless"
+u = "toothless-rounded-serifless"
+w = "straight-serifless"
 y = "straight-turn-serifless"
 long-s = "flat-hook-tailed"
 eszet = "sulzbacher-serifless"
@@ -179,7 +181,8 @@ cyrl-u = "straight-turn-serifless"
 cyrl-ef = "serifless"
 cyrl-yeri = "corner"
 cyrl-yery = "corner"
-asterisk = "hex-high"
+asterisk = "penta-high"
+paren = "large-contour"
 brace = "straight"
 guillemet = "straight"
 number-sign = "slanted"
@@ -189,18 +192,18 @@ micro-sign = "tailed-serifless"
 lig-equal-chain = "without-notch"
 lig-hyphen-chain = "without-notch"
 
-[buildPlans.AdwaitaMonoCondensed.widths.Normal]
+[buildPlans.IosevkaSeriousCondensed.widths.Normal]
 shape = 500
 menu = 5
 css = "normal"
 
-[buildPlans.AdwaitaMonoCondensed.slopes.Upright]
+[buildPlans.IosevkaSeriousCondensed.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.AdwaitaMonoCondensed.slopes.Italic]
+[buildPlans.IosevkaSeriousCondensed.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
