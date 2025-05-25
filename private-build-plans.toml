@@ -177,7 +177,6 @@ exportGlyphNames = false
     y = "straight-serifless"
     capital-eszet = "flat-top-serifless"
     eszet = "sulzbacher-serifless"
-    ampersand = "et-toothless-corner"
     at = "fourfold-solid-inner"
 
 [buildPlans.IosevkaPlexish.widths.Normal]
