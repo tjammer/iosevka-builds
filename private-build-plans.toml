@@ -175,6 +175,8 @@ exportGlyphNames = false
     k = "symmetric-touching-serifless"
     r = "serifed"
     y = "straight-serifless"
+    capital-eszet = "flat-top-serifless"
+    eszet = "sulzbacher-serifless"
     ampersand = "et-toothless-corner"
     at = "fourfold-solid-inner"
 
