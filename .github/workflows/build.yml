@@ -42,12 +42,6 @@ jobs:
       with:
         name: IosevkaNeat
         path: dist/IosevkaNeat/TTF/*
-    - name: Build Plexish
-      run: npm run build -- ttf::IosevkaPlexish
-    - uses: actions/upload-artifact@v4
-      with:
-        name: IosevkaPlexish
-        path: dist/IosevkaPlexish/TTF/*
     - name: Build West
       run: npm run build -- ttf::IosevkaWest
     - uses: actions/upload-artifact@v4
@@ -60,9 +54,3 @@ jobs:
       with:
         name: IosevkaWestExtended
         path: dist/IosevkaWestExtended/TTF/*
-    - name: Build Serious
-      run: npm run build -- ttf::IosevkaSeriousCondensed
-    - uses: actions/upload-artifact@v4
-      with:
-        name: IosevkaSeriousCondensed
-        path: dist/IosevkaSeriousCondensed/TTF/*
