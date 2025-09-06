@@ -245,3 +245,51 @@ angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
+
+[buildPlans.IosevkaCubuntu]
+family = "Iosevka Cubuntu"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaCubuntu.variants]
+  inherits = "ss12"
+
+    [buildPlans.IosevkaCubuntu.variants.design]
+    at = "fourfold-solid-inner"
+    m = "earless-single-arch-serifless"
+    asterisk = "penta-low"
+    lig-ltgteq = "slanted"
+
+[buildPlans.IosevkaCubuntu.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCubuntu.weights.Bold]
+shape = 800
+menu = 700
+css = 700
+
+[buildPlans.IosevkaCubuntu.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCubuntu.widths.Extended]
+shape = 548
+menu = 7
+css = "expanded"
+
+[buildPlans.IosevkaCubuntu.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaCubuntu.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
