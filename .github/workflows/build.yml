@@ -36,9 +36,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm ci
-    - name: Build Cubuntu
-      run: npm run build -- ttf::IosevkaCubuntu
+    - name: Build Pt
+      run: npm run build -- ttf::IosevkaPt
     - uses: actions/upload-artifact@v4
       with:
-        name: IosevkaCubuntu
-        path: dist/IosevkaCubuntu/TTF/*
+        name: IosevkaPt
+        path: dist/IosevkaPt/TTF/*
