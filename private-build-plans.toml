@@ -305,7 +305,8 @@ exportGlyphNames = false
   inherits = "ss16"
 
     [buildPlans.IosevkaPt.variants.design]
-    asterisk = "penta-mid"
+    u = "toothed-motion-serifed"
+    asterisk = "penta-low"
 
 [buildPlans.IosevkaPt.weights.Regular]
 shape = 350
@@ -345,6 +346,7 @@ exportGlyphNames = false
   inherits = "ss16"
 
     [buildPlans.IosevkaPtExtended.variants.design]
+    u = "toothed-motion-serifed"
     asterisk = "penta-low"
 
 [buildPlans.IosevkaPtExtended.weights.Regular]
