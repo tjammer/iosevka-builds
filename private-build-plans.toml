@@ -305,9 +305,9 @@ exportGlyphNames = false
   inherits = "ss16"
 
     [buildPlans.IosevkaPt.variants.design]
-    zero = "long-dotted"
     asterisk = "penta-mid"
     at = "fourfold-solid-inner"
+    zero = "top-right-cutout"
 
 [buildPlans.IosevkaPt.weights.Regular]
 shape = 350
