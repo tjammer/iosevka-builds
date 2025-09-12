@@ -6,32 +6,12 @@ noCvSs = true
 exportGlyphNames = false
 
   [buildPlans.IosevkaClean.variants]
-  inherits = "ss16"
+  inherits = "ss14"
 
     [buildPlans.IosevkaClean.variants.design]
-    capital-g = "toothless-corner-inward-serifed-hooked"
-    capital-l = "serifless"
-    capital-m = "slanted-sides-hanging-serifless"
-    capital-s = "bilateral-inward-serifed"
-    capital-t = "motion-serifed"
-    a = "double-storey-serifless"
-    b = "toothless-corner-serifless"
-    c = "serifless"
-    d = "toothed-serifless"
-    f = "flat-hook-serifless"
-    g = "double-storey"
-    h = "straight-serifless"
-    k = "symmetric-connected-serifless"
-    n = "earless-corner-straight-serifless"
-    p = "eared-serifless"
-    r = "serifless"
-    u = "toothless-rounded-serifless"
-    lower-mu = "toothless-rounded-serifless"
-    asterisk = "penta-low"
-    micro-sign = "toothless-rounded-serifless"
-    lig-ltgteq = "slanted"
-    lig-double-arrow-bar = "with-notch"
-    lig-single-arrow-bar = "with-notch"
+    capital-w = "straight-serifless"
+    w = "straight-serifless"
+    paren = "large-contour"
 
 [buildPlans.IosevkaClean.weights.Regular]
 shape = 350
@@ -68,32 +48,12 @@ noCvSs = true
 exportGlyphNames = false
 
   [buildPlans.IosevkaCleanExtended.variants]
-  inherits = "ss16"
+  inherits = "ss14"
 
     [buildPlans.IosevkaCleanExtended.variants.design]
-    capital-g = "toothless-corner-inward-serifed-hooked"
-    capital-l = "serifless"
-    capital-m = "slanted-sides-hanging-serifless"
-    capital-s = "bilateral-inward-serifed"
-    capital-t = "motion-serifed"
-    a = "double-storey-serifless"
-    b = "toothless-corner-serifless"
-    c = "serifless"
-    d = "toothed-serifless"
-    f = "flat-hook-serifless"
-    g = "double-storey"
-    h = "straight-serifless"
-    k = "symmetric-connected-serifless"
-    n = "earless-corner-straight-serifless"
-    p = "eared-serifless"
-    r = "serifless"
-    u = "toothless-rounded-serifless"
-    lower-mu = "toothless-rounded-serifless"
-    asterisk = "penta-low"
-    micro-sign = "toothless-rounded-serifless"
-    lig-ltgteq = "slanted"
-    lig-double-arrow-bar = "with-notch"
-    lig-single-arrow-bar = "with-notch"
+    capital-w = "straight-serifless"
+    w = "straight-serifless"
+    paren = "large-contour"
 
 [buildPlans.IosevkaCleanExtended.weights.Regular]
 shape = 350
