@@ -36,15 +36,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm ci
-    - name: Build Clean
-      run: npm run build -- ttf::IosevkaClean
+    - name: Build Experimenta
+      run: npm run build -- ttf::IosevkaExperimenta
     - uses: actions/upload-artifact@v4
       with:
-        name: IosevkaClean
-        path: dist/IosevkaClean/TTF/*
-    - name: Build Clean Extended
-      run: npm run build -- ttf::IosevkaCleanExtended
-    - uses: actions/upload-artifact@v4
-      with:
-        name: IosevkaCleanExtended
-        path: dist/IosevkaCleanExtended/TTF/*
+        name: IosevkaExperimenta
+        path: dist/IosevkaExperimenta/TTF/*
