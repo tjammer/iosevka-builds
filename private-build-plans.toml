@@ -42,6 +42,9 @@ exportGlyphNames = false
   [buildPlans.IosevkaPragmaExtended.variants]
   inherits = "ss08"
 
+    [buildPlans.IosevkaPragmaExtended.variants.design]
+    zero = "oval-reverse-slashed-split"
+
 [buildPlans.IosevkaPragmaExtended.weights.Regular]
 shape = 400
 menu = 400
