@@ -42,9 +42,15 @@ jobs:
       with:
         name: IosevkaExtended
         path: dist/IosevkaExtended/TTF/*
-    - name: Build Pragma Extended
-      run: npm run build -- ttf::IosevkaPragmaExtended
+    - name: Build Ss12 Extended
+      run: npm run build -- ttf::IosevkaSs12Extended
     - uses: actions/upload-artifact@v4
       with:
-        name: IosevkaPragmaExtended
-        path: dist/IosevkaPragmaExtended/TTF/*
+        name: IosevkaSs12Extended
+        path: dist/IosevkaSs12Extended/TTF/*
+    - name: Build Ss05 Extended
+      run: npm run build -- ttf::IosevkaSs05Extended
+    - uses: actions/upload-artifact@v4
+      with:
+        name: IosevkaSs05Extended
+        path: dist/IosevkaSs05Extended/TTF/*
