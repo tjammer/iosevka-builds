@@ -36,9 +36,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm ci
-    - name: Build Neater
-      run: npm run build -- ttf::IosevkaNeater
+    - name: Build Iosevkasolata
+      run: npm run build -- ttf::Iosevkasolata
     - uses: actions/upload-artifact@v4
       with:
-        name: IosevkaNeater
-        path: dist/IosevkaNeater/TTF/*
+        name: Iosevkasolata
+        path: dist/Iosevkasolata/TTF/*
