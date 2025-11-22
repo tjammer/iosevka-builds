@@ -20,7 +20,7 @@ jobs:
     - name: Checkout Iosevka
       uses: actions/checkout@v3
       with:
-        repository: be5invis/Iosevka
+        repository: tjammer/Iosevka
         fetch-depth: 1
         fetch-tags: false
     - name: Checkout configuration

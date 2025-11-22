@@ -47,3 +47,10 @@ angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
+
+[buildPlans.Iosevkasolata.output]
+ttf = true
+otf = false
+woff = false
+woff2 = false
+variable = false
