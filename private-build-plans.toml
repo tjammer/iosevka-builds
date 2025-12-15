@@ -11,9 +11,15 @@ f = "flat-hook-serifed"
 j = "flat-hook-serifed"
 t = "flat-hook-short-neck"
 asterisk = "penta-low"
-number-sign = "slanted"
 at = "fourfold"
-percent = "rings-continuous-slash"
+
+[buildPlans.Ioslab.variants.italic]
+zero = "oval-long-dotted"
+f = "flat-hook-tailed"
+j = "serifed"
+t = "bent-hook-short-neck"
+asterisk = "penta-low"
+at = "fourfold"
 
 [buildPlans.Ioslab.weights.Regular]
 shape = 400
