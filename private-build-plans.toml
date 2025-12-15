@@ -6,7 +6,7 @@ noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.Ioslab.variants.design]
-zero = "oval-tall-slashed"
+zero = "oval-long-dotted"
 f = "flat-hook-serifed"
 j = "flat-hook-serifed"
 t = "flat-hook-short-neck"
