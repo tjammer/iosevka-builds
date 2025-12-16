@@ -6,7 +6,7 @@ noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.Ioslab.variants.design]
-zero = "oval-long-dotted"
+zero = "slashed-cutout"
 f = "flat-hook-serifed"
 j = "flat-hook-serifed"
 t = "flat-hook-short-neck"
@@ -14,7 +14,7 @@ asterisk = "penta-low"
 at = "fourfold"
 
 [buildPlans.Ioslab.variants.italic]
-zero = "oval-long-dotted"
+zero = "slashed-cutout"
 f = "flat-hook-tailed"
 j = "serifed"
 t = "bent-hook-short-neck"
