@@ -42,15 +42,3 @@ jobs:
       with:
         name: IosevkaNeat
         path: dist/IosevkaNeat/TTF/*
-    - name: Build Hooked
-      run: npm run build -- ttf::IosevkaPlexish
-    - uses: actions/upload-artifact@v4
-      with:
-        name: IosevkaPlexish
-        path: dist/IosevkaPlexish/TTF/*
-    - name: Build Serious
-      run: npm run build -- ttf::IosevkaSeriousCondensed
-    - uses: actions/upload-artifact@v4
-      with:
-        name: IosevkaSeriousCondensed
-        path: dist/IosevkaSeriousCondensed/TTF/*
