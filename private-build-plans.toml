@@ -83,6 +83,11 @@ shape = 700
 menu = 700
 css = 700
 
+[buildPlans.IosevkaNeat.widths.Condensed]
+shape = 500
+menu = 4
+css = "condensed"
+
 [buildPlans.IosevkaNeat.widths.Normal]
 shape = 548
 menu = 5
