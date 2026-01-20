@@ -62,6 +62,7 @@ exportGlyphNames = false
     n = "earless-corner-straight-serifless"
     q = "earless-corner-straight-serifless"
     t = "bent-hook-short-neck"
+    x = "cursive"
     y = "cursive-serifless"
     paren = "normal"
     brace = "curly"
