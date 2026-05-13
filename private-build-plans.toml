@@ -8,29 +8,31 @@ exportGlyphNames = false
   [buildPlans.IosevkaNeat.variants]
   inherits = "ss14"
 
-
     [buildPlans.IosevkaNeat.variants.design]
     one = "no-base"
+    two = "curly-neck-serifless"
     three = "two-arcs"
     four = "semi-open-serifless"
-    five = "oblique-arched-serifless"
-    six = "open-contour"
-    seven = "bend-serifless"
+    five = "upright-arched-serifless"
+    six = "straight-bar"
+    seven = "straight-serifless"
     eight = "crossing"
-    nine = "open-contour"
+    nine = "straight-bar"
     zero = "oval-slashed"
     capital-k = "symmetric-connected-serifless"
     capital-w = "straight-almost-flat-top-serifless"
     b = "toothless-corner-serifless"
     g = "single-storey-flat-hook-earless-corner"
+    i = "serifed"
     k = "symmetric-connected-serifless"
-    l = "serifed-flat-tailed"
+    l = "serifed"
     m = "earless-single-arch-serifless"
     n = "earless-corner-straight-serifless"
     q = "earless-corner-straight-serifless"
     r = "earless-corner-serifless"
+    t = "flat-hook-short-neck"
     w = "straight-almost-flat-top-serifless"
-    y = "straight-turn-serifless"
+    y = "straight-serifless"
     paren = "normal"
     brace = "curly"
     number-sign = "upright"
@@ -81,16 +83,6 @@ css = 400
 shape = 700
 menu = 700
 css = 700
-
-[buildPlans.IosevkaNeat.widths.Condensed]
-shape = 500
-menu = 4
-css = "condensed"
-
-[buildPlans.IosevkaNeat.widths.Normal]
-shape = 548
-menu = 5
-css = "normal"
 
 [buildPlans.IosevkaNeat.slopes.Upright]
 angle = 0
