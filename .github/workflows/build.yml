@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [lts/*]
     steps:
     - name: Install ttfautohint
       run: |
@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: be5invis/Iosevka
-        ref: v33.3.6
+        ref: v34.6.3
         fetch-depth: 1
         fetch-tags: false
     - name: Checkout configuration
