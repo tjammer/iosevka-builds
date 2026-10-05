@@ -85,11 +85,6 @@ shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaNeat.widths.Normal]
-shape = 540
-menu = 5
-css = "normal"
-
 [buildPlans.IosevkaNeat.slopes.Upright]
 angle = 0
 shape = "upright"
