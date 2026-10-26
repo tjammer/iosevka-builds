@@ -18,9 +18,10 @@ exportGlyphNames = false
     a = "double-storey-serifless"
     b = "toothless-corner-serifless"
     f = "flat-hook-serifless-crossbar-at-x-height"
+    l = "zshaped"
+    m = "short-leg-serifless"
     q = "earless-corner-straight-serifless"
     r = "hookless-serifless"
-    w = "straight-serifless"
     brace = "straight"
     number-sign = "upright-open"
 
