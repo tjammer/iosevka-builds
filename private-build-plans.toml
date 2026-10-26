@@ -9,9 +9,8 @@ exportGlyphNames = false
   inherits = "ss15"
 
     [buildPlans.IosevkaNeat.variants.design]
-    one = "no-base"
     four = "semi-open-serifless"
-    five = "upright-arched-serifless"
+    five = "oblique-arched-serifless"
     six = "straight-bar"
     seven = "straight-serifless"
     nine = "straight-bar"
