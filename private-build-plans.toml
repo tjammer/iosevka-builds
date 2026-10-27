@@ -4,6 +4,7 @@ spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
+noLigation = true
 
   [buildPlans.IosevkaNeat.variants]
   inherits = "ss15"
