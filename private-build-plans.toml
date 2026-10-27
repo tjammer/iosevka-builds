@@ -16,6 +16,7 @@ exportGlyphNames = false
     nine = "straight-bar"
     b = "toothless-corner-serifless"
     f = "flat-hook-serifless"
+    m = "short-leg-serifless"
     q = "earless-corner-straight-serifless"
     r = "corner-hooked-serifed"
     brace = "straight"
