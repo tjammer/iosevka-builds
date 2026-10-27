@@ -1,6 +1,6 @@
 [buildPlans.IosevkaNeat]
 family = "Iosevka Neat"
-spacing = "normal"
+spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
