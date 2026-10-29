@@ -23,6 +23,9 @@ noLigation = true
     brace = "straight"
     number-sign = "upright-open"
 
+    [buildPlans.IosevkaNeat.variants.italic]
+    f = "flat-hook-diagonal-tailed"
+
 [buildPlans.IosevkaNeat.weights.Regular]
 shape = 400
 menu = 400
