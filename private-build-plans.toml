@@ -8,7 +8,6 @@ noLigation = true
 
 [buildPlans.Mpluska.variants.design]
 two = "straight-neck-serifless"
-three = "flat-top-serifless"
 four = "semi-open-non-crossing-serifless"
 five = "upright-flat-serifless"
 six = "open-contour"
